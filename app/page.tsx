@@ -400,7 +400,7 @@ export default function Home() {
             disabled={counselSubmitting}
             className="order-4 flex shrink-0 items-center justify-center gap-1.5 rounded-xl bg-teal-500 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:ring-offset-slate-800 disabled:cursor-not-allowed disabled:opacity-70 sm:order-0"
           >
-            {counselSubmitting ? "전송 중..." : "상담 신청2"}
+            {counselSubmitting ? "전송 중..." : "상담신청2호점점"}
             {!counselSubmitting && (
               <span className="text-white" aria-hidden>
                 →
