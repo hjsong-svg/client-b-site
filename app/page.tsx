@@ -8,7 +8,7 @@ type NavItem = { label: string; href: string };
 export default function Home() {
   const navItems: NavItem[] = useMemo(
     () => [
-      { label: "권선호 소개", href: "#about" },
+      { label: "클리닉 소개", href: "#about" },
       { label: "진료 안내", href: "#services" },
       { label: "커뮤니티", href: "#community" },
       { label: "예약", href: "#reserve" },
